@@ -1,0 +1,17 @@
+.testimonials {
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+
+.testimonials-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.feedback-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}

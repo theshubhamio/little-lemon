@@ -1,0 +1,43 @@
+.food-item {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 200px;
+    flex: 0 0 auto;
+}
+
+.food-image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.food-details {
+    padding: 10px;
+}
+
+.food-name {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.food-price {
+    font-size: 1rem;
+    color: gray;
+    margin: 5px 0;
+}
+
+.food-description {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+.order-button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}

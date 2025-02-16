@@ -1,0 +1,25 @@
+.nav-container {
+    width: 100%;
+}
+
+.nav-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    gap: 20px; /* Adjust the gap between nav items as needed */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* Center the grid columns */
+}
+
+.nav-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center; /* Center the list items within their grid cells */
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #000; /* Adjust the color as needed */
+}

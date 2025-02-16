@@ -1,0 +1,22 @@
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    max-height: 50px; /* Adjust the height as needed */
+}
+
+@media (max-width: 800px) {
+    .header {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        text-align: center;
+    }
+
+    .logo {
+        justify-self: center;
+    }
+}
